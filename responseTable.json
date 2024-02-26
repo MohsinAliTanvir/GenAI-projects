@@ -1,0 +1,76 @@
+[
+  [
+    "I am (.*)",
+    ["You are %1?", "How long have you been %1?", "What makes you %1?"]
+  ],
+  [
+    "He is (.*)",
+    ["How long has he been %1?", "What makes him %1?", "He is %1?"]
+  ],
+  [
+    "She is (.*)",
+    ["How long has she been %1?", "What makes her %1?", "She %1?"]
+  ],
+  [
+    "It is (.*)",
+    ["How long has it been %1?", "What makes it %1?", "It is %1?"]
+  ],
+  [
+    "I enjoy (.*)",
+    [
+      "How do you know that you enjoy %1?",
+      "How long have you been enjoying %1?",
+      "What makes you enjoy %1?"
+    ]
+  ],
+  [
+    "I hate (.*)",
+    [
+      "Why do you hate %1?",
+      "How long have you been hating %1?",
+      "How does hating %1 make you feel?"
+    ]
+  ],
+  [
+    "I believe (.*)",
+    [
+      "Why do you believe %1?",
+      "How long have you been believing %1?",
+      "How does believing %1 make you feel?"
+    ]
+  ],
+  [
+    "I want (.*)",
+    ["You want %1?", "Why do you want %1?", "How would that make you feel?"]
+  ],
+  [
+    "I feel (.*)",
+    ["Why do you feel %1?", "Since when do you feel %1?", "You feel %1?"]
+  ],
+  [
+    "I think (.*)",
+    [
+      "Why do you think %1?",
+      "Since when do you think %1?",
+      "You really think %1?"
+    ]
+  ],
+  [
+    "([i|he|she|it].*)",
+    [
+      "I'm sorry. I don't understand",
+      "Could you please elaborate?",
+      "Maybe this is beyond my comprehension.."
+    ]
+  ],
+  [
+    "(.*\\?)",
+    [
+      "I'm sorry, I don't understand the question.",
+      "Can you clarify your question?",
+      "Could you please repeat that?",
+      "Maybe this is beyond my comprehension.."
+    ]
+  ],
+  ["(.*)", ["Interesting.", "Tell me more.", "I see.", "I'd like to know more"]]
+]
